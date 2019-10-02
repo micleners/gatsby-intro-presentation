@@ -3,6 +3,7 @@
   - "formidable/configurations/es6-react"
 
 "rules":
+  "comma-dangle": ["error", "always-multiline"]
   "indent": [2, 2, {"SwitchCase": 1}]
   "max-len": 0
   "no-magic-numbers": 0
