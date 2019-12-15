@@ -4,6 +4,8 @@
 
 "rules":
   "comma-dangle": ["error", "always-multiline"]
+  "arrow-parens": ["error", "as-needed"]
+  "template-tag-spacing": ["error", "never"]
   "indent": [2, 2, {"SwitchCase": 1}]
   "max-len": 0
   "no-magic-numbers": 0

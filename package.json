@@ -19,8 +19,10 @@
     "normalize.css": "8.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-icons": "^3.7.0",
     "spectacle": "^5.5.0",
-    "spectacle-renderer": "^0.0.3"
+    "spectacle-renderer": "^0.0.3",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -34,7 +36,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
-    "@webpack-cli/migrate": "^0.1.2",
+    "@webpack-cli/migrate": "^0.1.8",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.18",
