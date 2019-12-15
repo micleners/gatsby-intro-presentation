@@ -1,16 +1,5 @@
 import React from 'react';
-import {
-  //   Deck,
-  Slide,
-  Heading,
-  //   Text,
-  //   BlockQuote,
-  //   Cite,
-  Image,
-  //   List,
-  //   ListItem,
-  //   Quote
-} from 'spectacle';
+import { Slide, Heading, Image } from 'spectacle';
 import styled from 'styled-components';
 import { FaTachometerAlt, FaShieldAlt, FaAccessibleIcon } from 'react-icons/fa';
 
@@ -18,7 +7,6 @@ const Descriptor = styled.span`
   font-size: 56px;
   width: 230px;
   color: ${props => props.color || '#eaeaea'};
-  /* margin-top: 100px; */
 `;
 
 const Features = styled.div`

@@ -1,24 +1,5 @@
 import React from 'react';
-import {
-  //   Deck,
-  Slide,
-  Heading,
-  //   Text,
-  //   BlockQuote,
-  //   Cite,
-  Image,
-  List,
-  ListItem,
-  //   ListItem,
-  //   Quote
-} from 'spectacle';
-import styled from 'styled-components';
-
-const HeaderFlex = styled.div`
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-`;
+import { Slide, Heading, List, ListItem } from 'spectacle';
 
 export const Outline = () => (
   <Slide>

@@ -1,15 +1,6 @@
 import React from 'react';
 import {
   Deck,
-  Slide,
-  Heading,
-  Text,
-  BlockQuote,
-  Cite,
-  Image,
-  List,
-  ListItem,
-  Quote,
 } from 'spectacle';
 import {
   Opening,

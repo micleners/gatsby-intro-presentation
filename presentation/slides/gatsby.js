@@ -1,17 +1,5 @@
 import React from 'react';
-import {
-  //   Deck,
-  Slide,
-  Heading,
-  //   Text,
-  //   BlockQuote,
-  //   Cite,
-  Image,
-  List,
-  ListItem,
-  //   ListItem,
-  //   Quote
-} from 'spectacle';
+import { Slide, Heading, Image, List, ListItem } from 'spectacle';
 import styled from 'styled-components';
 
 const HeaderFlex = styled.div`
@@ -24,7 +12,7 @@ export const GatsbyDetails = () => (
   <Slide>
     <HeaderFlex>
       <Image
-        style={{ "float": 'right' }}
+        style={{ 'float': 'right' }}
         src="https://res.cloudinary.com/meta-lark-design/image/upload/c_scale,w_150/v1569985070/mike-portfolio/gatsby-contentful-netlify/gatsby-logo.png"
       />
       <Heading>GatsbyJS</Heading>

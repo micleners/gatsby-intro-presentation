@@ -1,16 +1,5 @@
 import React from 'react';
-import {
-  //   Deck,
-  Slide,
-  Heading,
-  //   Text,
-  //   BlockQuote,
-  //   Cite,
-  //   Image,
-  //   List,
-  //   ListItem,
-  //   Quote
-} from 'spectacle';
+import { Slide, Heading } from 'spectacle';
 import styled from 'styled-components';
 import { YellowText, PurpleText, DarkText } from '../helpers/text';
 import { FaTwitter, FaTwitch, FaGithub } from 'react-icons/fa';
